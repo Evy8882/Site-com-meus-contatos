@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homepage</title>
+    <style>
+                body{
+         text-align: center;
+         background: rgb(32, 32, 32);
+         color: white;
+        }
+        button{
+            background: red;
+            color: white;
+        }
+        section{
+            background: gray;
+            color: black;
+            padding: 3px;
+            text-align: center;
+            width: 480px;
+            margin: auto;
+            border-radius: 6px;
+        }
+        img{
+            width: 120px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Entre em contato</h1>
+    <section>
+        <strong>Veja meus contatos e redes profissionais através do botão abaixo:</strong>
+        <p><button onclick="contatos()">fale comigo </button></p>
+    </section>
+    <footer>
+        <p>Site criado com python com objetivo de aprendizado</p>
+        <img src="https://i.pinimg.com/originals/f0/74/91/f074918193bce828386452891a26cb23.jpg" alt="Py">
+    </footer>
+    <script>
+        function contatos(){
+            var url_atual = window.location.href;
+            window.open(url_atual+'contatos')
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contatos</title>
+    <style>
+        body{
+            text-align: center;
+            background: rgb(32, 32, 32);
+            color: white
+
+        }
+        section{
+            background: gray;
+            color:black;
+            width: 480px;
+            padding: 3px;
+            border-radius: 6px;
+            margin: auto;
+            text-align: left;
+        }
+        img{
+            width: 48px;
+        }
+    </style>
+</head>
+<body>
+    <p><h1>Contatos</h1></p>
+    <section>
+    <p><strong>telefone:</strong> 999999999</p>
+    <p><strong>email:</strong> evy1339@gmail.com</p>
+    <p id="redes">
+        <img src="https://pbs.twimg.com/profile_images/1414990564408262661/r6YemvF9_400x400.jpg" alt="github" onclick="github()">
+        <img src="https://t.ctcdn.com.br/09Y6BbLFxNn7XGCYRGzEI0p0oy8=/400x400/smart/filters:format(webp)/i490027.jpeg" alt="linkedin" onclick="linkedin()">
+        <img src="https://pbs.twimg.com/profile_images/923214541290221569/dCMZxkwz_400x400.jpg" alt="codepen" onclick="codepen()">
+    </p>
+    </section>
+    <script>
+        function github(){
+            window.open('https://github.com/Evy8882')
+        }
+        function linkedin(){
+            window.open('https://www.linkedin.com/in/evy882/')
+        }
+        function codepen(){
+            window.open('https://codepen.io/Evy_')
+        }
+    </script>
+</body>
+</html>
